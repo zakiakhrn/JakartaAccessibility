@@ -1,0 +1,463 @@
+{
+  "layerInfos": [
+    {
+      "name": "Wisata",
+      "id": "33c9c8034ad742c182175763aca9a0b3",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Aksesibilitas_Wisata_Jakarta_dengan_Kereta_Api_Lokal_WFL1/FeatureServer/0",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "NAMOBJ",
+            "alias": "NAMOBJ",
+            "show": true
+          },
+          {
+            "name": "FCODE",
+            "alias": "FCODE",
+            "show": true
+          },
+          {
+            "name": "REMARK",
+            "alias": "REMARK",
+            "show": true
+          },
+          {
+            "name": "METADATA",
+            "alias": "METADATA",
+            "show": true
+          },
+          {
+            "name": "SRS_ID",
+            "alias": "SRS_ID",
+            "show": true
+          },
+          {
+            "name": "OBDWSA",
+            "alias": "OBDWSA",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "JDTWST",
+            "alias": "JDTWST",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          }
+        ]
+      },
+      "show": null,
+      "showAttachments": false,
+      "sortField": "NAMOBJ",
+      "isDescending": false
+    },
+    {
+      "name": "Stasiun Keretea Api",
+      "id": "bde50c5934284218a6cbd0bdbc7bd7ad",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Aksesibilitas_Wisata_Jakarta_dengan_Kereta_Api_Lokal_WFL1/FeatureServer/1",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "NAMOBJ",
+            "alias": "Nama Objek",
+            "show": true
+          },
+          {
+            "name": "FCODE",
+            "alias": "Feature Code",
+            "show": true
+          },
+          {
+            "name": "REMARK",
+            "alias": "CATATAN",
+            "show": true
+          },
+          {
+            "name": "METADATA",
+            "alias": "METADATA",
+            "show": true
+          },
+          {
+            "name": "SRS_ID",
+            "alias": "Spatial Reference System Identifier",
+            "show": true
+          },
+          {
+            "name": "DOPSTA",
+            "alias": "Wilayah Pelayanan\n",
+            "show": true
+          },
+          {
+            "name": "FGSSTA",
+            "alias": "Fungsi Stasiun Kereta\n",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "KLSSTA",
+            "alias": "Kelas Stasiun Kereta\n",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "KMTSTA",
+            "alias": "Kilometer\n",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "KODKOD",
+            "alias": "Kode Kereta\n",
+            "show": true
+          },
+          {
+            "name": "KONKON",
+            "alias": "Kondisi Nilai\n",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "LINSTA",
+            "alias": "Kuantitas Lajur\n",
+            "show": true
+          },
+          {
+            "name": "WILSTA",
+            "alias": "Wilayah Efektif Stasiun Kereta\n",
+            "show": true
+          }
+        ]
+      },
+      "show": null,
+      "showAttachments": false,
+      "sortField": "NAMOBJ",
+      "isDescending": false
+    },
+    {
+      "name": "Jalur Kereta Api",
+      "id": "c90b9088141942d29bb5956404f6e9a5",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Aksesibilitas_Wisata_Jakarta_dengan_Kereta_Api_Lokal_WFL1/FeatureServer/2",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "NAMOBJ",
+            "alias": "Nama Objek",
+            "show": true
+          },
+          {
+            "name": "FCODE",
+            "alias": "Feature Code",
+            "show": true
+          },
+          {
+            "name": "REMARK",
+            "alias": "Catatan",
+            "show": true
+          },
+          {
+            "name": "METADATA",
+            "alias": "METADATA",
+            "show": true
+          },
+          {
+            "name": "SRS_ID",
+            "alias": "Spatial Reference System Identifier",
+            "show": true
+          },
+          {
+            "name": "KARTRY",
+            "alias": "Karakteristik Transportasi Publik\n",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "KLSTRY",
+            "alias": "Kelas Rute Transportasi Publik\n",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "KODTRY",
+            "alias": "Kode Pelayanan Jalur Kereta Api\n",
+            "show": true
+          },
+          {
+            "name": "MFQTRY",
+            "alias": "Maksimal\n",
+            "show": true
+          },
+          {
+            "name": "TIPTRY",
+            "alias": "Tipe Rute Transportasi Publik\n",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "TPGRUD",
+            "alias": "Kecepatan Maksimal\n",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          }
+        ]
+      },
+      "show": null,
+      "showAttachments": false,
+      "sortField": "KARTRY",
+      "isDescending": false
+    },
+    {
+      "name": "Administrasi Jakarta",
+      "id": "70d8c1f110fd4064abd355f8b70934c5",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Aksesibilitas_Wisata_Jakarta_dengan_Kereta_Api_Lokal_WFL1/FeatureServer/3",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "NAMOBJ",
+            "alias": "NAMOBJ",
+            "show": true
+          },
+          {
+            "name": "FCODE",
+            "alias": "FCODE",
+            "show": true
+          },
+          {
+            "name": "REMARK",
+            "alias": "REMARK",
+            "show": true
+          },
+          {
+            "name": "METADATA",
+            "alias": "METADATA",
+            "show": true
+          },
+          {
+            "name": "SRS_ID",
+            "alias": "SRS_ID",
+            "show": true
+          },
+          {
+            "name": "KDBBPS",
+            "alias": "KDBBPS",
+            "show": true
+          },
+          {
+            "name": "KDCBPS",
+            "alias": "KDCBPS",
+            "show": true
+          },
+          {
+            "name": "KDCPUM",
+            "alias": "KDCPUM",
+            "show": true
+          },
+          {
+            "name": "KDEBPS",
+            "alias": "KDEBPS",
+            "show": true
+          },
+          {
+            "name": "KDEPUM",
+            "alias": "KDEPUM",
+            "show": true
+          },
+          {
+            "name": "KDPBPS",
+            "alias": "KDPBPS",
+            "show": true
+          },
+          {
+            "name": "KDPKAB",
+            "alias": "KDPKAB",
+            "show": true
+          },
+          {
+            "name": "KDPPUM",
+            "alias": "KDPPUM",
+            "show": true
+          },
+          {
+            "name": "LUASWH",
+            "alias": "LUASWH",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "TIPADM",
+            "alias": "TIPADM",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "WADMKC",
+            "alias": "WADMKC",
+            "show": true
+          },
+          {
+            "name": "WADMKD",
+            "alias": "WADMKD",
+            "show": true
+          },
+          {
+            "name": "WADMKK",
+            "alias": "WADMKK",
+            "show": true
+          },
+          {
+            "name": "WADMPR",
+            "alias": "WADMPR",
+            "show": true
+          },
+          {
+            "name": "WIADKC",
+            "alias": "WIADKC",
+            "show": true
+          },
+          {
+            "name": "WIADKK",
+            "alias": "WIADKK",
+            "show": true
+          },
+          {
+            "name": "WIADPR",
+            "alias": "WIADPR",
+            "show": true
+          },
+          {
+            "name": "WIADKD",
+            "alias": "WIADKD",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "SHAPE_Leng",
+            "alias": "SHAPE_Leng",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Shape__Area",
+            "alias": "Shape__Area",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          }
+        ]
+      },
+      "show": null,
+      "showAttachments": false,
+      "sortField": "FID",
+      "isDescending": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": true,
+  "initiallyExpand": true,
+  "filterByMapExtent": true,
+  "allowTextSelection": true,
+  "syncWithLayers": true
+}
